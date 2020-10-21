@@ -1,4 +1,4 @@
-Install python and pyodbc for sqlserver with ODBC 17
+Install python, pyodbc and mysql.connector for sqlserver with ODBC 17 and MYSQL
 
 Tutorial para Ubuntu 18.04
 
@@ -20,4 +20,4 @@ ACCEPT_EULA=Y apt-get install mssql-tools
 
 apt-get install mssql-tools unixodbc-dev -y
 
-pip install pyodbc
+pip install pyodbc mysql-connector-python
